@@ -8,15 +8,15 @@ class SearchController {
     this.api = API;
   }
 
-  async getSearchList(inputText: string, callback: () => void) {
+  async getSearchList(inputText: string) {
     try {
       const response = await this.api.getList(inputText);
 
       if (response.status === 403) {
         ErrorRequestStore.changeErrorFast(true);
         setTimeout(() => {
-          callback();
-        }, 15000);
+          ErrorRequestStore.changeErrorFast(false);
+        }, 5000);
       } else {
         ErrorRequestStore.changeErrorFast(false);
       }

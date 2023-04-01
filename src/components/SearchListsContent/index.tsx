@@ -12,10 +12,9 @@ import SearchController from "../../controllers/SearchController";
 const Index: React.FC = observer(() => {
   const sendRequest = useDebounceCallback(async function requestOnChange() {
     const data = await SearchController.getSearchList(
-      inputTextSearch.inputText,
-      sendRequest
+      inputTextSearch.inputText
     );
-    ListsStore.addSearchList(data.items);
+    ListsStore.addSearchList(data?.items);
   }, 500);
 
   const handleAddInElectedList = useCallback((item: IItem) => {

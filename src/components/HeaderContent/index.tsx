@@ -1,9 +1,11 @@
-import { Input, Layout, Space } from "antd";
+import { Input, Layout, Space, Button } from "antd";
 import HeaderSearchStore from "../../store/headerSearchStore";
+import { CloseOutlined } from "@ant-design/icons";
 import React, { useCallback } from "react";
 import { observer } from "mobx-react-lite";
 import style from "./style.module.scss";
 import ButtonCopy from "../ButtonCopy";
+import errorRequestStore from "../../store/errorRequestStore";
 
 const HeaderContent: React.FC = observer(() => {
   const handleChangeInput = useCallback(
@@ -13,9 +15,15 @@ const HeaderContent: React.FC = observer(() => {
     []
   );
 
+  const handleRequestCancellation = useCallback(() => {
+    errorRequestStore.controllerCancelRequest.abort();
+    setTimeout(() => errorRequestStore.createController(), 1000);
+  }, []);
+
   return (
     <Layout.Header className={style.header}>
       <Space>
+        <Button onClick={handleRequestCancellation} icon={<CloseOutlined />} />
         <Input
           className={style.input}
           placeholder="Что ищем?"
