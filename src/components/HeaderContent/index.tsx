@@ -1,9 +1,8 @@
-import { Button, Input, Layout, Space } from "antd";
+import { Input, Layout, Space } from "antd";
 import HeaderSearchStore from "../../store/headerSearchStore";
 import React, { useCallback } from "react";
-import clipboardCopy from "clipboard-copy";
 import { observer } from "mobx-react-lite";
-import { headerStyle } from "./HeaderContentStyles";
+import style from "./style.module.scss";
 import ButtonCopy from "../ButtonCopy";
 
 const HeaderContent: React.FC = observer(() => {
@@ -15,13 +14,13 @@ const HeaderContent: React.FC = observer(() => {
   );
 
   return (
-    <Layout.Header style={headerStyle}>
+    <Layout.Header className={style.header}>
       <Space>
         <Input
+          className={style.input}
           placeholder="Что ищем?"
           value={HeaderSearchStore.inputText}
           onChange={handleChangeInput}
-          style={{ width: 300 }}
         />
         <ButtonCopy />
       </Space>

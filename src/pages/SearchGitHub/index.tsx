@@ -2,17 +2,17 @@ import React from "react";
 
 import { Layout } from "antd";
 import { observer } from "mobx-react-lite";
-import HeaderContent from "../../components/HeaderContent/HeaderContent";
-import ErrorRequestContent from "../../components/ErrorRequestContent/ErrorRequestContent";
+import HeaderContent from "../../components/HeaderContent";
+import ErrorRequestContent from "../../components/ErrorRequestContent";
 
-import SearchListsContent from "../../components/SearchListsContent/SearchListsContent";
+import Index from "../../components/SearchListsContent";
 
 const SearchGitHub: React.FC = observer(() => {
   return (
     <Layout>
       <HeaderContent />
       <ErrorRequestContent />
-      <SearchListsContent />
+      <Index />
     </Layout>
   );
 });

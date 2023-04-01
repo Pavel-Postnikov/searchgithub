@@ -1,19 +1,20 @@
 import { observer } from "mobx-react-lite";
-import HeaderSearchStore from "../store/headerSearchStore";
+import HeaderSearchStore from "../../store/headerSearchStore";
 import { Button } from "antd";
-import React, { useCallback } from "react";
+import React, { useCallback, useState } from "react";
 import clipboardCopy from "clipboard-copy";
 
 const ButtonCopy: React.FC = observer(() => {
-  const handleCopiedText = useCallback(() => {
-    void clipboardCopy(HeaderSearchStore.inputText);
-    HeaderSearchStore.changeLoadingCopy(true);
+  const [loadingCopy, setLoadingCopy] = useState(false);
+  const handleCopiedText = useCallback(async () => {
+    await clipboardCopy(HeaderSearchStore.inputText);
+    setLoadingCopy(true);
     setTimeout(() => {
-      HeaderSearchStore.changeLoadingCopy(false);
+      setLoadingCopy(false);
     }, 5000);
   }, []);
 
-  return HeaderSearchStore.loadingCopy ? (
+  return loadingCopy ? (
     <Button type="primary" loading>
       Копируется
     </Button>

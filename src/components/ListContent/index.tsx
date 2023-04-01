@@ -1,28 +1,28 @@
 import { IItem } from "../../typings";
-import ListItem from "../ListItem/ListItem";
+import Index from "../ListItem";
 import { List } from "antd";
 import React from "react";
 import { observer } from "mobx-react-lite";
-
+import style from "./style.module.scss";
 export interface IPropsContentList {
-  addInFeaturedList?: (item: IItem) => void;
+  onAddInElectedList?: (item: IItem) => void;
   listRepositories: IItem[];
   textHeaderList: string;
 }
 
-const ContentList: React.FC<IPropsContentList> = observer(
-  ({ addInFeaturedList, listRepositories, textHeaderList }) => {
+const ListContent: React.FC<IPropsContentList> = observer(
+  ({ onAddInElectedList, listRepositories, textHeaderList }) => {
     return (
       <List
+        className={style.list}
         header={<div>{textHeaderList}</div>}
         dataSource={listRepositories}
         renderItem={(item: IItem) => (
-          <ListItem onClick={addInFeaturedList} item={item} />
+          <Index key={item.id} onClick={onAddInElectedList} item={item} />
         )}
-        style={{ width: 400 }}
       />
     );
   }
 );
 
-export default ContentList;
+export default ListContent;

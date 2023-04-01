@@ -1,6 +1,6 @@
 import React, { memo } from "react";
-import SearchGitHub from "./pages/SearchGitHub/SearchGitHub";
-import SingleRepository from "./pages/SinglRepository/SingleRepository";
+import SearchGitHub from "./pages/SearchGitHub";
+import SingleRepository from "./pages/SinglRepository";
 import { Route, Routes } from "react-router-dom";
 
 const App: React.FC = memo(() => {

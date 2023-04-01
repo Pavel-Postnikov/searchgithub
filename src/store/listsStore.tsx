@@ -3,7 +3,7 @@ import { IItem } from "../typings";
 
 class ListsStore {
   searchList: IItem[] = [];
-  featureList: IItem[] = [];
+  electedList: IItem[] = [];
   constructor() {
     makeAutoObservable(this);
   }
@@ -12,9 +12,9 @@ class ListsStore {
     this.searchList = items;
   }
 
-  addFeatureList(item: IItem) {
-    if (!this.featureList.includes(item)) {
-      this.featureList = this.featureList.concat(item);
+  addElectedList(item: IItem) {
+    if (!this.electedList.includes(item)) {
+      this.electedList = this.electedList.concat(item);
     }
   }
 }

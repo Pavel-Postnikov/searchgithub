@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c864046-1594-4bb2-8da2-7aad9f1732cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ButtonCopy.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderContent/HeaderContentStyles.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchListsContent/SearchListsContent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchListsContent/SearchListsContentStyles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SinglRepository/SingleRepository.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/moreInfoItemStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/api/SearchAPI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controllers/SearchController.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typings/scss.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonCopy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonCopy/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HeaderContent/HeaderContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContent/HeaderContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListContent/ContentList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListContent/ContentList.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ListItem/ListItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListItem/ListItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SearchGitHub/SearchGitHub.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchGitHub/SearchGitHub.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/typings/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/typings/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchListsContent/SearchListsContent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchListsContent/SearchListsContent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchListsContent/SearchListsContentStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchListsContent/style.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SinglRepository/SingleRepository.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SinglRepository/SingleRepository.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/moreInfoItemStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/moreInfoItemStore.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Pavel/Documents/GitHub/top-tank-team",
+    "last_opened_file_path": "C:/Users/Pavel/Documents/GitHub/searchgithub/src/pages/SinglRepository",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +63,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\pages\SinglRepository" />
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ErrorRequestContent" />
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\HeaderContent" />
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ListContent" />
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ListItem" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ButtonCopy" />
       <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ListItem" />
     </key>
   </component>
@@ -95,7 +102,7 @@
       <workItem from="1680267463374" duration="29413000" />
       <workItem from="1680304382965" duration="3668000" />
       <workItem from="1680308130519" duration="99000" />
-      <workItem from="1680346567934" duration="17456000" />
+      <workItem from="1680346567934" duration="26636000" />
     </task>
     <servers />
   </component>
