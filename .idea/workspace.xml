@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c864046-1594-4bb2-8da2-7aad9f1732cb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ContentList/ContentList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ListItem/ListItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/debounce.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SearchGitHub/SearchGitHub.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/typings/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorRequestContent/ErrorRequestContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderContent/HeaderContent.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/errorRequestStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/headerSearchStore.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/listsStore.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ContentList/ContentList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListContent/ContentList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/SearchGitHub/SearchGitHub.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchGitHub/SearchGitHub.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pavel/Documents/GitHub/searchgithub&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\prettier&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.prettier&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Pavel/Documents/GitHub/top-tank-team",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Pavel\Documents\GitHub\searchgithub\src\components\ListItem" />
@@ -95,7 +89,7 @@
       <workItem from="1680267463374" duration="29413000" />
       <workItem from="1680304382965" duration="3668000" />
       <workItem from="1680308130519" duration="99000" />
-      <workItem from="1680346567934" duration="2084000" />
+      <workItem from="1680346567934" duration="7186000" />
     </task>
     <servers />
   </component>
