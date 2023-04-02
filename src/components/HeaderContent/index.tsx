@@ -5,7 +5,7 @@ import React, { useCallback } from "react";
 import { observer } from "mobx-react-lite";
 import style from "./style.module.scss";
 import ButtonCopy from "../ButtonCopy";
-import errorRequestStore from "../../store/errorRequestStore";
+import errorRequestStore from "../../store/requestStore";
 
 const HeaderContent: React.FC = observer(() => {
   const handleChangeInput = useCallback(
@@ -17,7 +17,7 @@ const HeaderContent: React.FC = observer(() => {
 
   const handleRequestCancellation = useCallback(() => {
     errorRequestStore.controllerCancelRequest.abort();
-    setTimeout(() => errorRequestStore.createController(), 1000);
+    setTimeout(() => errorRequestStore.updateController(), 1000);
   }, []);
 
   return (

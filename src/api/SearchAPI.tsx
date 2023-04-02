@@ -1,4 +1,4 @@
-import errorRequestStore from "../store/errorRequestStore";
+import errorRequestStore from "../store/requestStore";
 
 export class SearchAPI {
   getList(data: string) {
@@ -8,4 +8,5 @@ export class SearchAPI {
   }
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default new SearchAPI();

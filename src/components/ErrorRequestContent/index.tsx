@@ -1,5 +1,5 @@
 import { observer } from "mobx-react-lite";
-import ErrorRequestStore from "../../store/errorRequestStore";
+import ErrorRequestStore from "../../store/requestStore";
 import { Typography } from "antd";
 import React from "react";
 import style from "./style.module.scss";

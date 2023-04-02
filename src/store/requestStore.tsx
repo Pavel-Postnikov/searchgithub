@@ -1,13 +1,13 @@
 import { makeAutoObservable } from "mobx";
 
-class ErrorRequestStore {
+class RequestStore {
   controllerCancelRequest = new AbortController();
   hasErrorFast = false;
   errorMessage = "";
   constructor() {
     makeAutoObservable(this);
   }
-  createController() {
+  updateController() {
     this.controllerCancelRequest = new AbortController();
   }
   changeErrorFast(hasFastRequest: boolean) {
@@ -19,4 +19,4 @@ class ErrorRequestStore {
 }
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default new ErrorRequestStore();
+export default new RequestStore();

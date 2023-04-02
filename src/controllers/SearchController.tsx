@@ -1,5 +1,5 @@
 import API, { SearchAPI } from "../api/SearchAPI";
-import ErrorRequestStore from "../store/errorRequestStore";
+import ErrorRequestStore from "../store/requestStore";
 
 class SearchController {
   private readonly api: SearchAPI;
@@ -20,12 +20,12 @@ class SearchController {
       } else {
         ErrorRequestStore.changeErrorFast(false);
       }
-      const data = await response.json();
-      return data;
+      return await response.json();
     } catch (e) {
       ErrorRequestStore.changeErrorMessage((e as Error).message);
     }
   }
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default new SearchController();

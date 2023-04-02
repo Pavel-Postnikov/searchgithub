@@ -9,7 +9,7 @@ import inputTextSearch from "../../store/headerSearchStore";
 import style from "./style.module.scss";
 import SearchController from "../../controllers/SearchController";
 
-const Index: React.FC = observer(() => {
+const SearchListsContent: React.FC = observer(() => {
   const sendRequest = useDebounceCallback(async function requestOnChange() {
     const data = await SearchController.getSearchList(
       inputTextSearch.inputText
@@ -43,4 +43,4 @@ const Index: React.FC = observer(() => {
   );
 });
 
-export default Index;
+export default SearchListsContent;

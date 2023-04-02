@@ -19,6 +19,7 @@ const nullItem = {
 
 class MoreInfoItemStore {
   moreInfoItem: IItemMoreInfo = nullItem;
+
   constructor() {
     makeAutoObservable(this);
   }
