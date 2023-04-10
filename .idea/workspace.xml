@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1c864046-1594-4bb2-8da2-7aad9f1732cb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.old.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/SearchAPI.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/SearchAPI.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ErrorRequestContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ErrorRequestContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchListsContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchListsContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controllers/SearchController.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/SearchController.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SearchGitHub/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchGitHub/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/errorRequestStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/requestStore.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/moreInfoItemStore.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/moreInfoItemStore.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +90,8 @@
       <workItem from="1680304382965" duration="3668000" />
       <workItem from="1680308130519" duration="99000" />
       <workItem from="1680346567934" duration="30850000" />
-      <workItem from="1680419852037" duration="4014000" />
+      <workItem from="1680419852037" duration="4648000" />
+      <workItem from="1680680594228" duration="954000" />
     </task>
     <servers />
   </component>
