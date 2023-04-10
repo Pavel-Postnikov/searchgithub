@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c864046-1594-4bb2-8da2-7aad9f1732cb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchListsContent/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchListsContent/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/debounce.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/headerSearchStore.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/headerSearchStore.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +45,7 @@
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\prettier",
     "settings.editor.selected.configurable": "settings.javascript.prettier",
-    "ts.external.directory.path": "C:\\Users\\Pavel\\AppData\\Local\\JetBrains\\WebStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\Pavel\\Documents\\GitHub\\searchgithub\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -98,7 +92,7 @@
       <workItem from="1680346567934" duration="30850000" />
       <workItem from="1680419852037" duration="4648000" />
       <workItem from="1680680594228" duration="954000" />
-      <workItem from="1681152840012" duration="3138000" />
+      <workItem from="1681152840012" duration="3763000" />
     </task>
     <servers />
   </component>
