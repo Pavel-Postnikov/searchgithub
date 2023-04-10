@@ -27,7 +27,7 @@ const HeaderContent: React.FC = observer(() => {
         <Input
           className={style.input}
           placeholder="Что ищем?"
-          value={HeaderSearchStore.inputText}
+          value={HeaderSearchStore.changeRequest}
           onChange={handleChangeInput}
         />
         <ButtonCopy />
